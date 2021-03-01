@@ -46,15 +46,7 @@ main {
     /* background-color: brown; */
 }
 
-.head-text-box p {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.head-text-box h2 {
+.formatting {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
@@ -118,13 +110,7 @@ main {
 
     /* background-color: darkslategrey; */
 }
-.scroll-down p {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
+
 .scroll-down {
     position: relative;
     max-width: 108px;
@@ -342,28 +328,6 @@ form.search-form button {
     position: relative;
 }
 
-.why-us_left p {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-.why-us-btn-content p {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-.why-us_left h3 {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .why-us-heading {
     max-width: 288px;
     width: 100%;
@@ -436,4 +400,90 @@ form.search-form button {
 }
 .why-us-btn:hover {
     background-color: #364baa;
+}
+
+.how-it-works_page {
+    max-width: 1770px;
+    width: 100%;
+    height: 340px;
+
+    display: flex;
+    justify-content: center;
+    
+    background: #333333;
+}
+
+.how-it-works_container {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    min-height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: lightsteelblue; */
+}
+
+.search-p {
+    max-width: 216px;
+    width: 100%;
+    min-height: 26px;
+    font-family: 'Aleo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+
+    z-index: 1;
+    color: #E8E8E8;
+    /* background-color: palevioletred; */
+}
+
+.arrows {
+    position: absolute;
+    z-index: 0;
+}
+
+.ellipse {
+    position: absolute;
+    z-index: 1;
+}
+.vectors {
+    z-index: 2;
+    position: relative;
+}
+
+.ellipse-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows-div {
+    max-width: 777px;
+    width: 100%;
+    min-height: 145px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
